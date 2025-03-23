@@ -4,7 +4,7 @@ export interface Size {
 }
 
 export interface Product {
-  id: number || string;
+  id: number | string;
   imageUrl: string;
   name: string;
   count: number;

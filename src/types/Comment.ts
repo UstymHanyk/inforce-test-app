@@ -1,6 +1,6 @@
   export interface Comment {
     id: number;
-    productId: number || string;
+    productId: number | string;
     description: string;
     date: Date;
   }
